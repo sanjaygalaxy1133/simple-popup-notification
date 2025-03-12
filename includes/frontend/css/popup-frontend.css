@@ -1,0 +1,269 @@
+.modal.fade.camp-popup-model {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    background: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+}
+
+.modal.fade.camp-popup-model.show{
+    display: block;
+}
+
+.modal.fade.camp-popup-model{
+    display: none;
+}
+
+.modal.fade.camp-popup-model .modal-dialog {
+    max-width: 1000px;
+    margin: 1.75rem auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: calc(100% - (0.5rem * 2));
+    padding: 0 15px;
+}
+.modal.fade.camp-popup-model .modal-dialog .modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0.3rem;
+    outline: 0;
+    position: relative;
+}
+
+.modal-header button#closePopupButton {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    background-color: transparent;
+    border: 0;
+    font-size: 42px;
+    font-weight: 300;
+    padding: 0;
+    color: #000;
+}
+.modal-header button#closePopupButton:hover {
+    border: 0;
+    color: #000;
+}
+
+.modal.fade.camp-popup-model .modal-body {
+    display: flex;
+    align-items: center;
+}
+.modal.fade.camp-popup-model .modal-body.left_image .model-body-left {
+    padding: 20px;
+    width: 50%;
+    text-align: left;
+}
+.modal.fade.camp-popup-model .modal-body.left_image .model-body-right {
+    width: 50%;
+}
+
+.modal.fade.camp-popup-model .modal-body.left_image .model-body-left h5 {
+    font-size: 54px;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+.modal.fade.camp-popup-model .modal-body.left_image .model-body-left p {
+    line-height: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.modal.fade.camp-popup-model .modal-body.right_image .model-body-left {
+    padding: 20px;
+    width: 50%;
+    text-align: left;
+}
+.modal.fade.camp-popup-model .modal-body.right_image .model-body-right {
+    width: 50%;
+}
+
+.modal.fade.camp-popup-model .modal-body.right_image .model-body-left h5 {
+    font-size: 54px;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+.modal.fade.camp-popup-model .modal-body.right_image .model-body-left p {
+    line-height: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.modal-header button#closePopupButton:focus {
+    outline: none;
+}
+
+.modal.fade.camp-popup-model .modal-body.left_image .model-body-left a.btn.btn-secondary {
+background-color: #fff;
+width: 100%;
+display: inline-block;
+color: #005080;
+text-decoration: none;
+text-align: center;
+padding: 10px;
+margin-top: 15px;
+border: none !important;
+font-size: 1rem;
+font-weight: 700;
+}
+
+.modal.fade.camp-popup-model .modal-body .model-body-left a.btn.btn-secondary:hover {
+    background-color: #e01d12 !important;
+    color: #fff !important;
+}
+
+.modal.fade.camp-popup-model .modal-body.right_image .model-body-left a.btn.btn-secondary {
+background-color: #fff;
+width: 100%;
+display: inline-block;
+color: #005080;
+text-decoration: none;
+text-align: center;
+padding: 10px;
+margin-top: 15px;
+font-size: 1rem;
+font-weight: 700;
+border: none !important;
+}
+
+.modal.fade.camp-popup-model .modal-body.right_image .model-body-right a.btn.btn-secondary:hover {
+    background-color: #e01d12 !important;
+    color: #fff !important;
+}
+
+.modal.fade.camp-popup-model .modal-body.left_image {
+    flex-direction: row-reverse;
+}
+
+#myModal.modal.fade.camp-popup-model{
+    z-index:9999;
+}
+
+.modal.fade.camp-popup-model .modal-body.no-image .model-body-left {
+    width: 100%;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.modal.fade.camp-popup-model .modal-body.no-image .model-body-left a.btn.btn-secondary {
+    width: auto;
+    padding: 10px 50px;
+}
+
+.modal.fade.camp-popup-model img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 475px;
+    min-height: 475px;
+}
+
+.modal.fade.camp-popup-model .modal-body.right_image .model-body-left a.btn.btn-secondary {
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.modal.fade.camp-popup-model .modal-body {
+    display: flex;
+    align-items: stretch;
+}
+
+.modal.fade.camp-popup-model img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 100%;
+    min-height: 100%;
+}
+
+.modal.fade.camp-popup-model .modal-body.right_image .model-body-left p {
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.modal.fade.camp-popup-model .modal-body.right_image .model-body-left h5 {
+    font-size: 54px;
+    line-height: 60px;
+}
+
+@media only screen and (max-width: 639px) {
+    .modal.fade.camp-popup-model .modal-body.left_image .model-body-right {
+        width: 100%;
+        padding: 15px 15px;
+    }
+    .modal.fade.camp-popup-model .modal-body.left_image .model-body-left {
+        padding: 15px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .modal.fade.camp-popup-model .modal-body.right_image .model-body-right {
+        width: 100%;
+        padding: 15px 15px;
+    }
+    .modal.fade.camp-popup-model .modal-body.right_image .model-body-left {
+        padding: 15px;
+        width: 100%;
+        text-align: left;
+    }
+    .modal.fade.camp-popup-model .modal-body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .modal.fade.camp-popup-model .modal-body.left_image {
+        flex-direction: column;
+    }
+
+    .modal.fade.camp-popup-model .modal-body.left_image .model-body-left h5 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 15px;
+    }
+
+    .modal.fade.camp-popup-model .modal-body.left_image .model-body-left p {
+        line-height: 30px;
+        font-weight: 500;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+
+     .modal.fade.camp-popup-model .modal-body.right_image .model-body-left h5 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 15px;
+    }
+
+    .modal.fade.camp-popup-model .modal-body.right_image .model-body-left p {
+        line-height: 30px;
+        font-weight: 500;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+}

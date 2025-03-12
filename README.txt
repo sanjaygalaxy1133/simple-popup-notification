@@ -1,4 +1,13 @@
-# simple-popup-notification
+=== WP Popup Box ===
+Contributors: galaxyweblinks
+Tags: Enable Popup,Background Color, Text Color, Heading, Description, CTA Button Text, CTA Button Link, Upload Image, Select Image Position Option
+Donate link: https://www.galaxyweblinks.com/
+Requires at least: 4.9
+Tested up to: 6.3.1
+Requires PHP: 7.4
+Stable tag: 1.2
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Add a WordPress popup box to the admin page settings, including backend options.
 
@@ -17,8 +26,14 @@ We just need to fill up the field on the backend.
 
 == Changelog ==
 1.2
+Second Stable Release
+
+1.0.0
 First Stable Release
 
 == Upgrade Notice ==
-1.2
+= 1.2 =
+Second Stable Release
+
+= 1.0.0 =
 First Stable Release
