@@ -105,7 +105,7 @@ class GitHubUpdater
      *
      * @var string 1.0.0
      */
-    private string $pluginVersion = '1.2';
+    private string $pluginVersion = '2.0';
 
     /**
      * Relative path to plugin icon from plugin root.

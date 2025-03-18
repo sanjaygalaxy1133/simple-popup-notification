@@ -6,7 +6,7 @@ namespace RYSE\GitHubUpdaterDemo;
  * Plugin Name:       Simple Popup Notification
  * Plugin URI:        https://github.com/sanjaygalaxy1133/simple-popup-notification
  * Description:       A lightweight plugin to display customizable notification popups on the frontend. Users can manage popup content and styles from the admin settings. Once closed, the popup will not reappear for the user until the cookie expires.
- * Version:           1.2
+ * Version:           2.0
  * Author:            Galaxy Weblinks
  * Author URI:        https://www.galaxyweblinks.com/
  * License:           GPLv2
